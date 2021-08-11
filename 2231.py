@@ -7,4 +7,4 @@ for i in range(len(str(N)) - 1, -1, -1):
     N -= (N // (10 ** i)) * (10 ** i)
     print(N)
 
-print(sol)
+print(sol, N)
