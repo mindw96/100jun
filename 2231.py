@@ -8,3 +8,4 @@ for i in range(len(str(N)) - 1, -1, -1):
 #    print(N)
     print(sol, N // (10 ** i))
 print(sol, N)
+print('Test')
